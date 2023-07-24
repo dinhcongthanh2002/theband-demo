@@ -1,0 +1,142 @@
+/* PC */
+@media (min-width: 64em) {
+  .scroll-top-btn:hover::after {
+    content: "Di chuyển lên đầu trang!";
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-70%);
+    font-size: 15px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    display: none;
+  }
+
+  .scroll-top-btn:hover::after {
+    display: block;
+  }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 63.9375em) {
+  .btn {
+    padding: 15px 16px;
+  }
+
+  #nav .subnav a {
+    padding: 5px 12px;
+  }
+
+  .contact-form .form-control {
+    padding: 13px;
+    font-size: 16px;
+  }
+
+  .contact-info {
+    line-height: 2;
+  }
+
+  .socials-list {
+    font-size: 48px;
+  }
+
+  #footer .socials-list a {
+    margin: 0 8px;
+  }
+
+  #footer .copyright a {
+    padding: 13px 0;
+    display: inline-block;
+  }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+  .s-full-width,
+  .s-col-full {
+    width: 100% !important;
+  }
+
+  .s-mt-8 {
+    margin-top: 8px !important;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+
+  #header .mobile-menu-btn {
+    display: block;
+  }
+
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+
+  #nav .subnav a {
+    color: #fff;
+    padding: 5px 40px;
+  }
+
+  #nav {
+    display: block;
+  }
+
+  #nav > li {
+    display: block;
+  }
+
+  #nav li a {
+    display: block;
+    padding: 1px 24px;
+  }
+
+  #nav li a:hover {
+    color: #000;
+    background-color: #ccc;
+  }
+
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  #slider .text-content {
+    display: none;
+  }
+
+  #content .member-img {
+    width: 60%;
+  }
+
+  #content .content-section {
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .contact-info {
+    margin: 16px 0 32px;
+  }
+
+  .scroll-top-btn {
+    right: 30px;
+    bottom: 70px;
+  }
+}
